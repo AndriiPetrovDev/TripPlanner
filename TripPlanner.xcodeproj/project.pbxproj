@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F49060A72B26328800584662 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49060A62B26328800584662 /* PriorityQueue.swift */; };
 		F4D5BBED2B203C3C00E4184D /* TripPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BBEC2B203C3C00E4184D /* TripPlannerApp.swift */; };
-		F4D5BBEF2B203C3C00E4184D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BBEE2B203C3C00E4184D /* ContentView.swift */; };
 		F4D5BBF12B203C3F00E4184D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D5BBF02B203C3F00E4184D /* Assets.xcassets */; };
 		F4D5BBF42B203C3F00E4184D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D5BBF32B203C3F00E4184D /* Preview Assets.xcassets */; };
 		F4D5BBFE2B203C3F00E4184D /* TripPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BBFD2B203C3F00E4184D /* TripPlannerTests.swift */; };
-		F4D5BC082B203C3F00E4184D /* TripPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC072B203C3F00E4184D /* TripPlannerUITests.swift */; };
-		F4D5BC0A2B203C3F00E4184D /* TripPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC092B203C3F00E4184D /* TripPlannerUITestsLaunchTests.swift */; };
+		F4D5BC172B203C8000E4184D /* TripPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC162B203C8000E4184D /* TripPlannerViewModel.swift */; };
+		F4D5BC192B203C9100E4184D /* TripPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC182B203C9100E4184D /* TripPlannerView.swift */; };
+		F4D5BC1B2B203CA400E4184D /* FlightDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC1A2B203CA400E4184D /* FlightDataService.swift */; };
+		F4D5BC1D2B203CB200E4184D /* FlightConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC1C2B203CB200E4184D /* FlightConnection.swift */; };
+		F4D5BC1F2B20432400E4184D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC1E2B20432400E4184D /* MapView.swift */; };
+		F4D5BC262B24984600E4184D /* CityNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC252B24984600E4184D /* CityNode.swift */; };
+		F4D5BC282B24985B00E4184D /* FlightConnectionEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC272B24985B00E4184D /* FlightConnectionEdge.swift */; };
+		F4D5BC2B2B2498B700E4184D /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC2A2B2498B700E4184D /* FlightData.swift */; };
+		F4D5BC2D2B2498C900E4184D /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC2C2B2498C900E4184D /* Coordinates.swift */; };
+		F4D5BC302B24B29D00E4184D /* FlightGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC2F2B24B29D00E4184D /* FlightGraphTests.swift */; };
+		F4D5BC352B24B49F00E4184D /* FlightGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5BC342B24B49F00E4184D /* FlightGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +33,27 @@
 			remoteGlobalIDString = F4D5BBE82B203C3C00E4184D;
 			remoteInfo = TripPlanner;
 		};
-		F4D5BC042B203C3F00E4184D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4D5BBE12B203C3C00E4184D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4D5BBE82B203C3C00E4184D;
-			remoteInfo = TripPlanner;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F49060A62B26328800584662 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		F4D5BBE92B203C3C00E4184D /* TripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D5BBEC2B203C3C00E4184D /* TripPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerApp.swift; sourceTree = "<group>"; };
-		F4D5BBEE2B203C3C00E4184D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4D5BBF02B203C3F00E4184D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D5BBF32B203C3F00E4184D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4D5BBF92B203C3F00E4184D /* TripPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D5BBFD2B203C3F00E4184D /* TripPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerTests.swift; sourceTree = "<group>"; };
-		F4D5BC032B203C3F00E4184D /* TripPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D5BC072B203C3F00E4184D /* TripPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITests.swift; sourceTree = "<group>"; };
-		F4D5BC092B203C3F00E4184D /* TripPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4D5BC162B203C8000E4184D /* TripPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerViewModel.swift; sourceTree = "<group>"; };
+		F4D5BC182B203C9100E4184D /* TripPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerView.swift; sourceTree = "<group>"; };
+		F4D5BC1A2B203CA400E4184D /* FlightDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataService.swift; sourceTree = "<group>"; };
+		F4D5BC1C2B203CB200E4184D /* FlightConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightConnection.swift; sourceTree = "<group>"; };
+		F4D5BC1E2B20432400E4184D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4D5BC252B24984600E4184D /* CityNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNode.swift; sourceTree = "<group>"; };
+		F4D5BC272B24985B00E4184D /* FlightConnectionEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightConnectionEdge.swift; sourceTree = "<group>"; };
+		F4D5BC2A2B2498B700E4184D /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		F4D5BC2C2B2498C900E4184D /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		F4D5BC2F2B24B29D00E4184D /* FlightGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightGraphTests.swift; sourceTree = "<group>"; };
+		F4D5BC342B24B49F00E4184D /* FlightGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +71,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D5BC002B203C3F00E4184D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F49060A52B26327B00584662 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F49060A62B26328800584662 /* PriorityQueue.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		F4D5BBE02B203C3C00E4184D = {
 			isa = PBXGroup;
 			children = (
 				F4D5BBEB2B203C3C00E4184D /* TripPlanner */,
 				F4D5BBFC2B203C3F00E4184D /* TripPlannerTests */,
-				F4D5BC062B203C3F00E4184D /* TripPlannerUITests */,
 				F4D5BBEA2B203C3C00E4184D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +96,6 @@
 			children = (
 				F4D5BBE92B203C3C00E4184D /* TripPlanner.app */,
 				F4D5BBF92B203C3F00E4184D /* TripPlannerTests.xctest */,
-				F4D5BC032B203C3F00E4184D /* TripPlannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				F4D5BBEC2B203C3C00E4184D /* TripPlannerApp.swift */,
-				F4D5BBEE2B203C3C00E4184D /* ContentView.swift */,
+				F4D5BC182B203C9100E4184D /* TripPlannerView.swift */,
+				F4D5BC162B203C8000E4184D /* TripPlannerViewModel.swift */,
+				F4D5BC1E2B20432400E4184D /* MapView.swift */,
+				F4D5BC1A2B203CA400E4184D /* FlightDataService.swift */,
+				F4D5BC202B238E6A00E4184D /* Models */,
+				F49060A52B26327B00584662 /* Common */,
 				F4D5BBF02B203C3F00E4184D /* Assets.xcassets */,
 				F4D5BBF22B203C3F00E4184D /* Preview Content */,
 			);
@@ -114,17 +128,38 @@
 			isa = PBXGroup;
 			children = (
 				F4D5BBFD2B203C3F00E4184D /* TripPlannerTests.swift */,
+				F4D5BC2F2B24B29D00E4184D /* FlightGraphTests.swift */,
 			);
 			path = TripPlannerTests;
 			sourceTree = "<group>";
 		};
-		F4D5BC062B203C3F00E4184D /* TripPlannerUITests */ = {
+		F4D5BC202B238E6A00E4184D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F4D5BC072B203C3F00E4184D /* TripPlannerUITests.swift */,
-				F4D5BC092B203C3F00E4184D /* TripPlannerUITestsLaunchTests.swift */,
+				F4D5BC2E2B2498F600E4184D /* DataTransferObjects */,
+				F4D5BC292B24987700E4184D /* Graph */,
 			);
-			path = TripPlannerUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D5BC292B24987700E4184D /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5BC342B24B49F00E4184D /* FlightGraph.swift */,
+				F4D5BC252B24984600E4184D /* CityNode.swift */,
+				F4D5BC272B24985B00E4184D /* FlightConnectionEdge.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		F4D5BC2E2B2498F600E4184D /* DataTransferObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5BC2A2B2498B700E4184D /* FlightData.swift */,
+				F4D5BC1C2B203CB200E4184D /* FlightConnection.swift */,
+				F4D5BC2C2B2498C900E4184D /* Coordinates.swift */,
+			);
+			path = DataTransferObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +200,6 @@
 			productReference = F4D5BBF92B203C3F00E4184D /* TripPlannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4D5BC022B203C3F00E4184D /* TripPlannerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4D5BC132B203C3F00E4184D /* Build configuration list for PBXNativeTarget "TripPlannerUITests" */;
-			buildPhases = (
-				F4D5BBFF2B203C3F00E4184D /* Sources */,
-				F4D5BC002B203C3F00E4184D /* Frameworks */,
-				F4D5BC012B203C3F00E4184D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4D5BC052B203C3F00E4184D /* PBXTargetDependency */,
-			);
-			name = TripPlannerUITests;
-			productName = TripPlannerUITests;
-			productReference = F4D5BC032B203C3F00E4184D /* TripPlannerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +214,6 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					F4D5BBF82B203C3F00E4184D = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = F4D5BBE82B203C3C00E4184D;
-					};
-					F4D5BC022B203C3F00E4184D = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = F4D5BBE82B203C3C00E4184D;
 					};
@@ -221,7 +234,6 @@
 			targets = (
 				F4D5BBE82B203C3C00E4184D /* TripPlanner */,
 				F4D5BBF82B203C3F00E4184D /* TripPlannerTests */,
-				F4D5BC022B203C3F00E4184D /* TripPlannerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +255,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D5BC012B203C3F00E4184D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +262,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D5BBEF2B203C3C00E4184D /* ContentView.swift in Sources */,
+				F4D5BC1F2B20432400E4184D /* MapView.swift in Sources */,
+				F4D5BC172B203C8000E4184D /* TripPlannerViewModel.swift in Sources */,
+				F4D5BC1D2B203CB200E4184D /* FlightConnection.swift in Sources */,
+				F4D5BC282B24985B00E4184D /* FlightConnectionEdge.swift in Sources */,
+				F4D5BC262B24984600E4184D /* CityNode.swift in Sources */,
+				F4D5BC192B203C9100E4184D /* TripPlannerView.swift in Sources */,
+				F4D5BC2B2B2498B700E4184D /* FlightData.swift in Sources */,
 				F4D5BBED2B203C3C00E4184D /* TripPlannerApp.swift in Sources */,
+				F4D5BC2D2B2498C900E4184D /* Coordinates.swift in Sources */,
+				F4D5BC1B2B203CA400E4184D /* FlightDataService.swift in Sources */,
+				F4D5BC352B24B49F00E4184D /* FlightGraph.swift in Sources */,
+				F49060A72B26328800584662 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D5BC302B24B29D00E4184D /* FlightGraphTests.swift in Sources */,
 				F4D5BBFE2B203C3F00E4184D /* TripPlannerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4D5BBFF2B203C3F00E4184D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4D5BC0A2B203C3F00E4184D /* TripPlannerUITestsLaunchTests.swift in Sources */,
-				F4D5BC082B203C3F00E4184D /* TripPlannerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +293,6 @@
 			isa = PBXTargetDependency;
 			target = F4D5BBE82B203C3C00E4184D /* TripPlanner */;
 			targetProxy = F4D5BBFA2B203C3F00E4184D /* PBXContainerItemProxy */;
-		};
-		F4D5BC052B203C3F00E4184D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4D5BBE82B203C3C00E4184D /* TripPlanner */;
-			targetProxy = F4D5BC042B203C3F00E4184D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +462,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,42 +516,6 @@
 			};
 			name = Release;
 		};
-		F4D5BC142B203C3F00E4184D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9XN4NB5VV8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrewPetrovDev.TripPlannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TripPlanner;
-			};
-			name = Debug;
-		};
-		F4D5BC152B203C3F00E4184D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9XN4NB5VV8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrewPetrovDev.TripPlannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TripPlanner;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +542,6 @@
 			buildConfigurations = (
 				F4D5BC112B203C3F00E4184D /* Debug */,
 				F4D5BC122B203C3F00E4184D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4D5BC132B203C3F00E4184D /* Build configuration list for PBXNativeTarget "TripPlannerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4D5BC142B203C3F00E4184D /* Debug */,
-				F4D5BC152B203C3F00E4184D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

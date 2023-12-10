@@ -2,7 +2,7 @@
 //  TripPlannerTests.swift
 //  TripPlannerTests
 //
-//  Created by Andrew Petrov on 06.12.2023.
+//  Created by Andrii Petrov on 06.12.2023.
 //
 
 import XCTest
